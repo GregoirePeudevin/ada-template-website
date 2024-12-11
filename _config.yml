@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: My website
+title: My websiteeee
 
 # Your name to show in the footer
 author: Some Person
@@ -20,11 +20,11 @@ author: Some Person
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Introduction: "aboutme"
   Community detection on categories :
     - Communities emergence: "communitiesemergence"
     - clustering plots : "clusteringplots"
-  ADA 2024 : "https://epfl-ada.github.io/teaching/fall2024/cs401/"
+  Channel Diversity Mesure  : "channel diversity mesure"
 
 ################
 # --- Logo --- #
