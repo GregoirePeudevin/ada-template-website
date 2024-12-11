@@ -23,7 +23,7 @@ The heatmap indicates that categories such as Entertainment and People & Blogs s
 
 To better understand the relationships between different content categories, we analyze the co-occurrence patterns between them across channels. By visualizing these co-occurrences in a **network plot** , we can uncover clusters of categories that frequently appear together, providing insights into content strategies and audience interests. This visualization will help us identify key content synergies and how channels group their themes, ultimately shedding light on the dynamics of content diversification on the platform.
 
-![Heatmap](assets/img/conetwork.png)
+![Conetwork](assets/img/conetwork.png)
 
 **Observations**
 
@@ -33,7 +33,7 @@ After visualizing the co-occurrence network, we will apply clustering techniques
 
 Let's make things more interactive!
 
-![Heatmap](assets/img/interractive_conetwork.png)
+![Interractive_Conetwork](assets/img/interractive_conetwork.png)
 
 
 This plot reinforces the clusters identified in the previous visualization. However, it also highlights a limitation of Louvain's algorithm: it fails to recognize isolated categories as distinct clusters. Instead, these categories are often grouped with others, despite not sharing significant co-occurrence relationships. This issue arises because Louvain's method focuses on maximizing modularity, which can sometimes lead to less accurate representations of small or isolated communities that lack strong connections. To address this, additional refinement techniques or alternative community detection algorithms might be necessary to better capture these isolated categories.
