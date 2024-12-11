@@ -34,3 +34,6 @@ After visualizing the co-occurrence network, we will apply clustering techniques
 Let's make things more interactive!
 
 ![Heatmap](assets/img/interractive_conetwork.png)
+
+
+This plot reinforces the clusters identified in the previous visualization. However, it also highlights a limitation of Louvain's algorithm: it fails to recognize isolated categories as distinct clusters. Instead, these categories are often grouped with others, despite not sharing significant co-occurrence relationships. This issue arises because Louvain's method focuses on maximizing modularity, which can sometimes lead to less accurate representations of small or isolated communities that lack strong connections. To address this, additional refinement techniques or alternative community detection algorithms might be necessary to better capture these isolated categories.
