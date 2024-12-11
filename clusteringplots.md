@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Initial data presentation
+title: different plots of clusterings
 ---
 
 
