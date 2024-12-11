@@ -1,0 +1,9 @@
+title: ADA CATEGORY ANALYSIS
+description: An in-depth exploration of YouTube categories.
+navigation:
+  - title: Introduction
+    url: introduction.md
+  - title: Initial Data Preparation
+    url: data-preparation.md
+  - title: Community Detection on Categories
+    url: community-detection.md
