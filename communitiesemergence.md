@@ -12,4 +12,4 @@ Understanding how categories co-occur will help us detect strong connections bet
 
 This analysis will also serve as a foundation for inspecting channel diversity in subsequent phases. By identifying which channels cover multiple categories, we can better understand the impact of content diversification on channel growth and audience engagement.
 
-![Heatmap](assets/img/heatmap.jpg)
+![Heatmap](assets/img/heatmap.png)
